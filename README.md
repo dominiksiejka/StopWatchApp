@@ -17,7 +17,7 @@
 
 ## Description
 
-StopWatch app measures the time in seconds. It can be useful to see how many seconds does it take to do something maybe some exercise. It contains play, pouse, reset, clear archives button and archives section.You can also change the border colors and show the instruction by pressing on question mark.
+StopWatch app measures the time in seconds. It can be useful to see how many seconds does it take to do something, some exercises for example. It contains play, pouse, reset, clear archives button and archives section.You can also change the border colors and show the instruction by pressing on question mark.
 
 ## How to use
 
