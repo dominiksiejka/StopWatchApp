@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <i class="fas fa-paint-brush colorChange"></i
+        ><i class="fas fa-question"></i>
+      </div>
+      <div class="colors colorChange">
+        <i class="fas fa-circle one"></i><i class="fas fa-circle two"></i
+        ><i class="fas fa-circle three"></i>
+      </div>
+      <h3>StopWatch</h3>
+      <p id="finalRes" class="colorChange">0:00</p>
+      <div class="tools">
+        <button class="playBtn colorChange">
+          <i class="fab fa-google-play"></i>
+        </button>
+        <button class="pouseBtn colorChange">
+          <i class="fas fa-pause"></i>
+        </button>
+        <button class="stopBtn colorChange"><i class="fas fa-stop"></i></button>
+        <button class="closeBtn colorChange">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <button class="archery colorChange">Archives</button>
+      <div class="modal">
+        <div class="guide-list">
+          <h4>Guide:</h4>
+          <p><i class="fab fa-google-play colorChange"></i> - start</p>
+          <p><i class="fas fa-pause colorChange"></i> - pause</p>
+          <p><i class="fas fa-stop colorChange"></i> - stop</p>
+          <p><i class="fas fa-times colorChange"></i> - delete all archives</p>
+          <p>
+            <span class="archive colorChange">archives</span> list all previous
+            measurements
+          </p>
+          <button id="close" class="colorChange">Close</button>
+        </div>
+      </div>
+    </div>
+    <div class="showData"></div>
+    <script src="project.js"></script>
+  </body>
+</html>
