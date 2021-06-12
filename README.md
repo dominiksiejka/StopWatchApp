@@ -4,7 +4,7 @@
 
 [**click live demo of the project**](https://dominiksiejka.github.io/BillSplitterApp)
 
-![BillSplitterApp preview](./assets/billsplitter.jpg)
+![BillSplitterApp preview](./assets/stopwatch.jpg)
 
 ## Table of Contents
 
